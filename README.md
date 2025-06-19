@@ -40,7 +40,7 @@ Figure 2. Forward and Backward Diffusion Processes
 
 <img
   src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/unet.png"
-  height="250"
+  height="350"
   alt="unet"
 />
 
