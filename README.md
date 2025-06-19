@@ -29,12 +29,20 @@ figure 1. PixelCNN Convolutional Layer
 **2.2 DDPM**
 
 Denoising Diffusion Probabilistic Models are based on the principle of restoring lost information. In this approach, the information loss is not introduced by removing pixels, but by adding noise to the image. The model learns to predict the noise added to an image, and after training, it can generate a new, original image resembling the dataset, by repeatedly removing the predicted noise from an image initialized with random noise. This gradual denoising process enables DDPMs to capture complex data distributions, resulting in high-quality image synthesis and a robust representation of visual structures. The noise prediction model is implemented using the U-Net architecture [4], with only two downsampling and two upsampling layers and a total of 5 convolutional layers inbetween.
-
-![](https://github.com/DarioVajda/genmoji/blob/main/readme_images/diffusion.png){width=300px}       
+ 
+<img
+  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/diffusion.png"
+  height="250"
+  alt="diffusion"
+/>
 
 Figure 2. Forward and Backward Diffusion Processes	       
 
-![](https://github.com/DarioVajda/genmoji/blob/main/readme_images/unet.png){width=300px}
+<img
+  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/unet.png"
+  height="250"
+  alt="unet"
+/>
 
 Figure 3. U-Net Model Architecture
 
