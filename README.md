@@ -65,7 +65,6 @@ Both models were trained for the same amount of time on the same hardware for a 
   height="150"
   alt="emoji4"
 />
-![](https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji1.png)![](https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji2.png)![](https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji3.png)![](https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji4.png)
 Figure 4. PixelCNN-like Model outputs
 
 <img
@@ -92,7 +91,6 @@ Figure 4. PixelCNN-like Model outputs
   height="150"
   alt="emoji8"
 />
-![](https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji5.png)![](https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji6.png)![](https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji7.png)![](https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji8.png)
 Figure 5. Diffusion Model outputs
 
 The PixelCNN model was better at producing results with consistent colours, while on the other hand, the Diffusion model was better at producing more realistic shapes and structures of faces, but struggled a little bit with the true tones of the colours.
