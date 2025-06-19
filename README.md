@@ -7,7 +7,7 @@
 ### Faculty of Computer and Information Science, University of Ljubljana
 
 vajdadario@gmail.com
-# **Abstract**
+### **Abstract**
 Denoising Diffusion Probabilistic Models (DDPM) [1] have proven superior to earlier image generation approaches, such as Autoregressive models like PixelCNN [2]. In this research project, both methods are applied to the simple task of generating new images of emojis using a very small dataset, with the aim of highlighting their differences.
 
 **1 Introduction**
