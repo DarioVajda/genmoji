@@ -48,49 +48,51 @@ Both models were trained for the same amount of time on the same hardware for a 
   alt="emoji1"
 />
 <img
-  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji1.png"
+  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji2.png"
   width="150"
   height="150"
   alt="emoji2"
 />
 <img
-  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji1.png"
+  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji3.png"
   width="150"
   height="150"
   alt="emoji3"
 />
 <img
-  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji1.png"
+  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji4.png"
   width="150"
   height="150"
   alt="emoji4"
 />
+
 Figure 4. PixelCNN-like Model outputs
 
 <img
-  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji1.png"
+  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji5.png"
   width="150"
   height="150"
   alt="emoji5"
 />
 <img
-  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji1.png"
+  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji6.png"
   width="150"
   height="150"
   alt="emoji6"
 />
 <img
-  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji1.png"
+  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji7.png"
   width="150"
   height="150"
   alt="emoji7"
 />
 <img
-  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji1.png"
+  src="https://github.com/DarioVajda/genmoji/blob/main/readme_images/emoji8.png"
   width="150"
   height="150"
   alt="emoji8"
 />
+
 Figure 5. Diffusion Model outputs
 
 The PixelCNN model was better at producing results with consistent colours, while on the other hand, the Diffusion model was better at producing more realistic shapes and structures of faces, but struggled a little bit with the true tones of the colours.
