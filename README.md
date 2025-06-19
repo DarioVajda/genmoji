@@ -116,11 +116,3 @@ Since image generation quality is very subjective, one way to evaluate their qua
 
 Implementing a prompting feature for both models with a text encoder would enable the models to generate images with specific learned features on demand, instead of generating images without any contextual guidance, relying solely on random seeds. Seeing how the two approaches adapt to this small-scale problem would definitely be very interesting.
 
-**References**
-
-1. Jonathan Ho, Ajay Jain, Pieter Abbeel, P. (2020). Denoising diffusion probabilistic models
-1. Aaron van den Oord, Nal Kalchbrenner, Oriol Vinyals, Lasse Espeholt, Alex Graves, Koray Kavukcuoglu (2016). Conditional image generation with PixelCNN decoders
-1. https://www.kaggle.com/datasets/subinium/emojiimage-dataset/data
-1. Olaf Ronneberger, Philipp Fischer, and Thomas Brox (2015) U-Net: Convolutional Networks for Biomedical Image Segmentation
-
-
