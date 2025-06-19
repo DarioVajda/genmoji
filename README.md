@@ -1,13 +1,10 @@
-
-![ref1]
-
-**Comparing Autoregressive and Diffusion Models on Emoji Generation**
+# **Comparing Autoregressive and Diffusion Models on Emoji Generation**
 
 
 
-**Dario Vajda**
+### **Dario Vajda**
 
-Faculty of Computer and Information Science, University of Ljubljana
+### Faculty of Computer and Information Science, University of Ljubljana
 
 vajdadario@gmail.com
 # **Abstract**
@@ -33,9 +30,13 @@ figure 1. PixelCNN Convolutional Layer
 
 Denoising Diffusion Probabilistic Models are based on the principle of restoring lost information. In this approach, the information loss is not introduced by removing pixels, but by adding noise to the image. The model learns to predict the noise added to an image, and after training, it can generate a new, original image resembling the dataset, by repeatedly removing the predicted noise from an image initialized with random noise. This gradual denoising process enables DDPMs to capture complex data distributions, resulting in high-quality image synthesis and a robust representation of visual structures. The noise prediction model is implemented using the U-Net architecture [4], with only two downsampling and two upsampling layers and a total of 5 convolutional layers inbetween.
 
-![](https://github.com/DarioVajda/genmoji/blob/main/readme_images/diffusion.png)         ![](https://github.com/DarioVajda/genmoji/blob/main/readme_images/unet.png)
+![](https://github.com/DarioVajda/genmoji/blob/main/readme_images/diffusion.png){width=300px}       
 
-Figure 2. Forward and Backward Diffusion Processes	       Figure 3. U-Net Model Architecture
+Figure 2. Forward and Backward Diffusion Processes	       
+
+![](https://github.com/DarioVajda/genmoji/blob/main/readme_images/unet.png){width=300px}
+
+Figure 3. U-Net Model Architecture
 
 **3 Experiments**
 
